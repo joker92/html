@@ -1,0 +1,68 @@
+<html>
+<head>
+
+<style type="text/css">
+
+.pippo{
+  background-color:red;
+}
+
+
+.pipponew{
+  background-color:yellow;
+
+}
+/*per dare un posizionamento relativo dell html inserito precedentemente */
+.new{
+  background-color:blue;
+  position:relative;
+  top:20px;
+  left:30px;
+}
+
+
+/* absolute aserve per bloccare la sua posizione in cui e */
+.pippo3{
+  background-color:green;
+  position: absolute; 
+  top:20px;
+  left: 10px;
+  width:150px;
+  height:200px;
+
+
+}
+.xx{
+  position:relative;
+  top :20px;
+  left:10px;
+  color:red;
+
+}
+
+</style>
+</head>
+
+
+
+<body>
+
+<div class="pippo"> testo senza posizione </div>
+
+<div class="pipponew"> testo 2 senza posizione </div>
+
+<div class="new"> testo con posizionamento </div>
+
+<div class="pippo3"> testo con absolute </div>
+<div class="pippo3">
+<p class="xx">ciao </p>
+</div>
+
+
+
+
+
+
+</body>
+</html>
+
