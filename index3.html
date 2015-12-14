@@ -30,6 +30,7 @@ h2{
 p{
   background-color:blue;
   letter-spacing:2px;
+  
 }
 .testoblu{
 	color:white;
@@ -94,15 +95,65 @@ a:hover{
 	border:4px solid red;
 	height:200px;
 }
+
+/* per creare lo stile sfumato */
 .sfumato{
 	height:200px;
 	background:red;
-	background:linear-gradient(red, yellow, green)
+	background:linear-gradient(red, yellow, green);
+        /*per pulire le posizioni per non sovrapporre le immaginin sulle altre */
+        clear:left ;
 }
+
+
+
+/* creare galleria immagini */
+
+.gallery{
+  width:180px;
+  border:2px solid red ;
+  margin:4px;
+  /* per mettere le immagini in orizzontale */
+  float:left;
+
+}
+
+/* per definire il bordo delle immagini ugale allimmagine */
+.gallery img{
+  width:100%;
+  height:auto;
+}
+/*per creare una didascalia */
+.didascalia{
+ padding:15px;
+ text-align:center ;
+}
+
+/* per mettere l' opacita sull immagini quando passo col mouse */
+
+.gallery:hover {
+  opacity:0.5;
+  border:3px solid purple;
+}
+
+.p1{
+  background-color:red;
+  letter-spacing:2px;
+  clear:left;
+}
+.imgsx {
+  float:left;
+  
+}
+p.sotto{
+clear:left ;
+}
+
 </style>
 </head>
 
 <body>
+<!-- ..per creare delle immagini un box sfumato ..-->
 <div class="sfumato">qui box sfumato</div>
 <br />
 <br />
@@ -128,7 +179,47 @@ a:hover{
 <div class="box"> 
 <img src="immagini/maori.jpg" />
 </div>
+<!-- creare gallerie immagini-->
+<div class="gallery">
+<!--.. cereare un link sull immagine che si apre suun anuova finestra ..-->
+<a href="immagini/montagna.jpg"
+width="300" height="200" target="_blank">
+
+<img src="immagini/montagna.jpg" width ="300" height="200"/> </a>
+<div class="didascalia"> fiordi norvegese</div>
+
+</div>
+<div class="gallery">
+<a href="immagini/montagna.jpg"
+width="300" height="200" target="_blank">
+
+<img src="immagini/montagna.jpg" width ="300" height="200"/> </a>
+<div class="didascalia"> fiordi norvegese</div>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<img class="imgsx" src="immagini/montagna.jpg" />
+<p > testo sinistro </p>
+
+<p class="psott">testo sotto </p>
+
+
 </body>
+
 
 
 </html>
