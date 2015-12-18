@@ -1,0 +1,62 @@
+
+.container{
+	
+background-color:white;
+width:80%;
+margin:0 auto;
+
+}
+
+.header{
+
+height:140px;
+/*background-color:red;*/
+color:pink;
+border:solid 4px black;
+/*testo sfumato*/
+background-color:black;
+/*--------------------------*/
+font-family:Arial,Verdana,serif;
+font-size:30px;
+text-align:center;
+/*bold e il grassetto*/
+font-weight:bold;
+
+}
+.header h1{
+
+}
+
+.menu{
+font-size:20px;
+position:relative;
+left:60px;
+top:-13px;
+color:white;
+/* per andare a togliere i puntini tipo lista*/
+list-style-type:none;
+
+}
+
+.menu li{
+/*per mettere la home contatti ecc in linea.. */
+display:inline;
+/*dimensione delle celle home prodotti ecc...*/
+padding:5px;
+background-color:97FF13;
+margin:-2px;
+background-color:purple;
+font-weight:bold;
+background-color:purple;
+}
+
+.menu li a {
+color:white;
+font-weight:bold;
+}
+
+.menu li a:hover{
+color:green;
+
+}
+

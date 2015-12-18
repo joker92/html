@@ -1,0 +1,104 @@
+
+.container{
+	
+background-color:yellow;
+
+
+
+}
+
+.header{
+
+height:140px;
+/*background-color:red;*/
+color:white;
+border:solid 4px black;
+/*testo sfumato*/
+background:linear-gradient(to left, red, blue, purple);
+/*--------------------------*/
+font-family:Arial,Verdana,serif;
+font-size:30px;
+text-align:center;
+/*bold e il grassetto*/
+font-weight:bold;
+
+}
+.header h1{
+position:relative;
+top:-140px;
+left:150px;
+}
+.header img{
+position:relative;
+left:-350;
+width:200px;
+height:150px;
+}
+.nav{
+
+height:100px;
+background-color: black;
+border-bottom:dotted 2px red;
+
+}
+
+
+.content{
+padding:10px;
+text-align:justify;
+font-size:14px;
+background:linear-gradient(to left,blue,purple);
+height:200px:
+border-left:solid 1px black,
+border-right:solid 1px black;
+border-bottom:solid 1px black;
+height:350px;
+color:white;
+}
+
+.footer{
+
+height:30px;
+background-color:310EB0;
+color:F37BFF;
+font-size:12px;
+text-align:center;
+;
+}
+
+
+.copy {
+position:relative;
+top;5px;
+
+}
+/*per mettere home dove siamo chi siamo ..*/
+.menu{
+font-size:18px;
+position:relative;
+left:580px;
+top:7px;
+color:black;
+/* per andare a togliere i puntini tipo lista*/
+list-style-type:none;
+
+}
+
+.menu li{
+/*per mettere la home contatti ecc in linea.. */
+display:inline;
+/*dimensione delle celle home prodotti ecc...*/
+padding:5px;
+background-color:97FF13;
+margin:-2px;
+
+}
+
+.menu li a {
+color:red ;
+font-weight:bold;
+}
+
+.menu li a:hover{
+color:blue;
+}
