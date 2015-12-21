@@ -1,0 +1,52 @@
+body{
+background-color:black;
+}
+
+ul{
+list-style:none;
+
+}
+
+
+
+
+.navigation li a {
+width:130px;
+	background-color:red;
+	float:left;
+	text-align:center;
+	text-decoration:none;
+	padding-top:17px;
+	padding-bottom:17px;
+	list-style:none;	
+}
+
+
+
+.navigation li a :hover {
+
+	text-decoration:underline;
+
+}
+.navigation li:hover ul{
+	display:block;
+}
+
+
+/*sottomenu*/
+.dropdown-nav {
+	position:absolute;
+	top:70px;
+	display:none;
+}
+
+.dropdown-nav.uno{
+	left:270px;
+	
+}
+
+.dropdown-nav.due{
+	left:527px;
+}
+
+
