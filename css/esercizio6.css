@@ -51,8 +51,8 @@ width:130px;
 }
 
 .dropdown-nav.due{
-	left:527px;
-
+	left:550px;
+	position:absolute;	
 }
 
 .dropdown-nav.tre{
@@ -65,4 +65,7 @@ width:130px;
 
 .dropdown-nav.li a :hover{
 	background-color:orange;
+}
+.navigation ul a:hover{
+	border:2px solid black;
 }

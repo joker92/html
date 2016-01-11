@@ -1,4 +1,7 @@
 
+
+
+
 .container{
 	
 background-color:yellow;
@@ -16,7 +19,8 @@ border:solid 4px black;
 /*testo sfumato*/
 background:linear-gradient(to left, red, blue, purple);
 /*--------------------------*/
-font-family:Arial,Verdana,serif;
+font-family: 'Yesteryear', cursive;
+/*font-family:Arial,Verdana,serif;*/
 font-size:30px;
 text-align:center;
 /*bold e il grassetto*/
@@ -54,6 +58,7 @@ border-right:solid 1px black;
 border-bottom:solid 1px black;
 height:350px;
 color:white;
+
 }
 
 .footer{

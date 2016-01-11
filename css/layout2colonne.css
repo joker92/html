@@ -1,0 +1,108 @@
+.container{
+	
+background-color:white;
+width:80%;
+margin:0 auto;
+border:2px solid red;
+}
+
+.header{
+
+height:140px;
+/*background-color:red;*/
+color:pink;
+border:solid 4px black;
+/*testo sfumato*/
+background-color:black;
+/*--------------------------*/
+font-family:Arial,Verdana,serif;
+font-size:30px;
+text-align:center;
+/*bold e il grassetto*/
+font-weight:bold;
+
+}
+.header h1{
+
+}
+
+.menu{
+font-size:20px;
+position:relative;
+left:60px;
+top:-13px;
+color:white;
+/* per andare a togliere i puntini tipo lista*/
+list-style-type:none;
+
+}
+
+.menu li{
+/*per mettere la home contatti ecc in linea.. */
+display:inline;
+/*dimensione delle celle home prodotti ecc...*/
+padding:5px;
+background-color:97FF13;
+margin:-2px;
+background-color:purple;
+font-weight:bold;
+
+}
+
+.menu li a {
+color:white;
+font-weight:bold;
+}
+
+.menu li a:hover{
+color:green;
+background-color:#59ff45;
+}
+.colonna{
+float:left;
+width:14em;
+height:300px;
+/*background-color:red;*/
+position:relative;
+top:5px;
+
+}
+.content{
+padding:10px;
+text-align:justify;
+font-size:14px;
+background-color:white;
+height:200px:
+border-left:solid 1px black,
+border-right:solid 1px black;
+border-bottom:solid 1px black;
+height:350px;
+color:black;
+}
+
+.footer{
+
+height:30px;
+background-color:black;
+color:white;
+font-size:12px;
+text-align:center;
+clear:both;
+}
+
+.footer a:hover{
+color:red;
+
+}
+.asd {
+
+position:relative;
+top :10px;
+left :-25px;
+}
+
+.asd2{
+position:relative;
+top:-5px;
+left:25px;
+}

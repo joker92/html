@@ -1,0 +1,125 @@
+
+
+
+#container{
+
+	width:90%;
+	margin:0 auto ;
+}
+
+
+body{
+	font-size:14px;
+	margin:0;
+	padding:0;
+	color:#707070;
+}
+
+#header h1{
+	float:left;
+	padding:20px 0 20px 15px;
+	
+}
+
+#header h1 span {
+	color:red;
+
+
+}
+
+#header h1 a{
+	text-decoration:none;
+	color :#333333;
+	font-size:30px;
+}
+
+
+
+#header h1 a:hover{
+	text-decoration:none;
+	color :#333333;
+	font-size:30px;
+}
+
+/*creiamo una classe per pulire lelemento superiore che andiamo a crichiamare ogni volta che vogliamo */
+
+.clearfloat{
+	clear:both;
+}
+
+#navcontainer ul{
+	margin:0;
+	list-style-type:none;
+	color:white;
+	width:100%;
+	text-align:center;
+	padding:17px 0;
+	background: url(../immagini/nero.jpg)  ;
+	
+}
+
+#navcontainer ul li{
+	display:inline;
+	float:center;
+}
+
+#navcontainer ul li a {
+	text-decoration:none;
+	color:#999999;
+	border-right:solid 1px #333333;
+/*per mettere tutto maiuscolo :*/	
+	text-transform:uppercase;
+	padding:17px 30px ;
+}
+
+
+#navcontainer ul li a:hover{
+	text-decoration:none;
+	color:#999999;
+	border-right:solid 1px #333333;
+/*per mettere tutto maiuscolo :*/	
+	text-transform:uppercase;
+	padding:17px 30px ;
+	background:url(../immagini/sfondo.jpg) repeat-x;
+}
+
+#navcontainer #activ a {
+	url(../immagini/sfondo.jpg) repeat-x;
+
+}
+
+#threeboxes{
+	
+	padding:10px;
+	height:250px;
+	margin-left:29px;
+}
+
+h2{
+	color:red;
+	padding:10px 0 20px 0 ;
+}
+
+.box{
+	float:left;
+	width:25%;
+	padding:10px 35px;
+	background-color:#e9e9e9;
+}
+
+
+.buttonlink{
+	background:red;
+	color:white;
+	padding:5px 10px ;
+	margin:10px 0 ;
+	text-decoration:none;
+	border-color:solid 2px white;
+/* il codice qui sotto crea un elemento di blocco di tuta quella striscia dove ce il botton link*/
+	display:inline-block;	
+}
+h3{
+	color:red;
+	padding:10px 0 20px 0;	
+}
+
