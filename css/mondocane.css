@@ -123,3 +123,59 @@ h3{
 	padding:10px 0 20px 0;	
 }
 
+.contenutosx {
+	float:left;
+	width:600px;
+	padding:10px 35px;
+	text-align:justify;
+}
+
+.imgsx{
+	float:left;
+	padding: 2px 10px 10px 2px;
+}
+
+
+.link{
+	margin-left:600px ;
+	padding: 10px 35px;
+	
+}
+
+.link li{
+	display: block;
+	/*per mettere un immagine come puntatore */
+	background: url(../immagini/p.png) no-repeat left 6px;
+	padding: 0 0 10px 7px ;
+
+}
+
+.link li a {
+	color: #008cbe;
+	text-decoration: none;
+}
+.link a:hover{
+
+	color:#008cbe;
+	text-decoration:underline; 
+}
+
+#footer{
+	padding: 0 10px 0 20px ;
+	border-top: solid 2px black;
+}
+
+#footer p{
+	text-align: center;
+}
+
+#footer a:{
+	color:#008bce;
+	text-decoration: none ;
+	font-size:12px;
+}
+#footer a:hover{
+	color:#008bce;
+	text-decoration: none ;
+	font-size:12px;
+}
